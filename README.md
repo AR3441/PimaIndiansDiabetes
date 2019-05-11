@@ -11,7 +11,7 @@ The data was retrieved from Kaggle. The dataset is originally from National Inst
 - BMI
 - Diabetes Pedigree Function
 - Insulin
-- # of Pregnancies
+- Number of Pregnancies
 - Age
 - Skin Thickness: Triceps Skinfold Thickness 
 - Outcome
