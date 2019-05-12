@@ -45,6 +45,7 @@ This model performed fairly poorly on thet testnig set, and in terms of the numb
 The next model used was Random Forest. This was also used with GridSearch and performed much better. It achieved the following scores:
 
 Test Accuracy Score: 0.792
+
 Testing F1 Score: 0.818
 
 ![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/Random%20Forest%20Confusion%20Matrix.png)
