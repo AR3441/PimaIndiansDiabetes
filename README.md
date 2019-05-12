@@ -32,6 +32,12 @@ To begin testing different models, the data was divided into testing and trainin
 
 ![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/Logistic%20Regressioin%20Confusion%20Matrix.png)
 
+The results of the other models can be seen below:
+
+### Decision Tree 
+Training F1 Score: 0.778
+Testing F1 Score: 0.735                                                                                                                 ![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/Decision%20Tree%20Confusion%20Matrix.png)
+
 
 
 ## Resources 
