@@ -32,9 +32,9 @@ To begin testing different models, the data was divided into testing and trainin
 
 ![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/Logistic%20Regressioin%20Confusion%20Matrix.png)
 
-The results of the other models can be seen below:
-
 ### Decision Tree 
+The next model used was Decision Tree. It was also used with GridSearch to find the best hyperparameters.
+The metrics for this model as well as a confusion matrix can be seen below: 
 Training F1 Score: 0.778
 Testing F1 Score: 0.735                                                                                                                 ![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/Decision%20Tree%20Confusion%20Matrix.png)
 
