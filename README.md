@@ -25,6 +25,14 @@ Finally, the class imbalance was looked at:
 
 ![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/ClassImbalance.png)
 
-There were 500 instances of the majority class, and 268 instances of the minority class. 
+There were 500 instances of the majority class, and 268 instances of the minority class. The minority class was upsampled to match the majority class using scikit learn's resample function. 
+
+## Model Testing + Results
+To begin testing different models, the data was divided into testing and training sets with a ratio of 75-25. The first model that was used was logistic regression. This was used in conjunction with GridSearch to find the best hyperparameters. This model performed fairly well with a Training F1 score of 0.774 and a testing F1 score of 0.757. A confusion matrix representing how the model performed can be seen below:
+
+![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/Logistic%20Regressioin%20Confusion%20Matrix.png)
+
+
+
 ## Resources 
 [1] https://data.world/data-society/pima-indians-diabetes-database
