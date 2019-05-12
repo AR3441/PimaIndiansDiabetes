@@ -35,8 +35,19 @@ To begin testing different models, the data was divided into testing and trainin
 ### Decision Tree 
 The next model used was Decision Tree. It was also used with GridSearch to find the best hyperparameters.
 The metrics for this model as well as a confusion matrix can be seen below: 
+
 Training F1 Score: 0.778
 Testing F1 Score: 0.735                                                                                                                 ![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/Decision%20Tree%20Confusion%20Matrix.png)
+
+This model performed fairly poorly on thet testnig set, and in terms of the number of false negatives. This is important because you woulld not want your model to miss patients that actually have diabetes. 
+
+### Random Forest
+The next model used was Random Forest. This was also used with GridSearch and performed much better. It achieved the following scores:
+
+Test Accuracy Score: 0.792
+Testing F1 Score: 0.818
+
+![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/Random%20Forest%20Confusion%20Matrix.png)
 
 
 
