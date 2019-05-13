@@ -76,7 +76,10 @@ Now that all the models have been tested, the feature importance was looked at. 
 
 ![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/logistic%20regression%20feature%20importance.png)
 
-Looking at this chart, Glucose and an interaction between Glucose and BMI are the most important features. To see just how important Glucose was, it was dropped and the logistic regression model was run again. It still performed surprisingly well with a Testing F1 Score of 0.749. 
+Looking at this chart, Glucose and an interaction between Glucose and BMI are the most important features. To see just how important Glucose was, it was dropped and the logistic regression model was run again. It still performed surprisingly well with a Testing F1 Score of 0.749. For this model, the most important feature was Diabetes Pedigree Function. After this, the model was run again with both of these features removed and the model still performed fairly well with an F1 score of 0.68. 
+
+## Conclusion
+Different classification models were tested on a dataset with engineered features. They all performed decently with XGBoost and Random Forest performing the best. Future steps to improve accuracy scores would involve using XGBoost with cross validation or by gathering more data to create even better features. 
 
 ## Resources 
 [1] https://data.world/data-society/pima-indians-diabetes-database
