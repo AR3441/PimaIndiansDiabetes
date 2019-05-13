@@ -70,9 +70,13 @@ Test F1 Score: 0.819
 
 ![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/KNN%20Confusion%20Matrix.png)
 
+## Feature Importance
 
+Now that all the models have been tested, the feature importance was looked at. This is a chart visualizing feature importances based on the logistic regression model:
 
+![Graphs](https://github.com/AR3441/PimaIndiansDiabetes/blob/master/Graphs/logistic%20regression%20feature%20importance.png)
 
+Looking at this chart, Glucose and an interaction between Glucose and BMI are the most important features. To see just how important Glucose was, it was dropped and the logistic regression model was run again. It still performed surprisingly well with a Testing F1 Score of 0.749. 
 
 ## Resources 
 [1] https://data.world/data-society/pima-indians-diabetes-database
