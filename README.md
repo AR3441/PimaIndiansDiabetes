@@ -16,7 +16,7 @@ The data was retrieved from Kaggle<sup>1</sup>. The dataset is originally from N
 - Skin Thickness: Triceps Skinfold Thickness 
 - Outcome
 
-To begin cleaning the data, NaNs and zero values were removed from the Glucose, Blood Pressure and BMI columns by replacing the zeros with the mean of the values that weren't zero. This couldn't be done however for the Insulin and Skin Thickness column which had zeros for over half the total number of instances. These columns were removed from the dataset altogether. The remaining columns were then checked for outliers using an IQR boxplot. Since there weren't too many outliers, they were kept in the dataset. 
+To begin cleaning the data, NaNs and zero values were removed from the Glucose, Blood Pressure and BMI columns by replacing the zeros with the mean of the rest of the values. This couldn't be done however for the Insulin and Skin Thickness column which had zeros for over half the total number of instances. Since, there was so much missing data, these columns were removed from the dataset altogether. The remaining columns were then checked for outliers using an IQR boxplot. Since there weren't too many outliers, they were kept in the dataset. 
 
 After this, the data was transformed. First, Age and Pregnancies were changed into range bins and then dummy variables. The remaining continuous variables were transformed using a MinMax Scaler. After this, some interaction variables were created using the continuous variables. In total there were 20 predictor variables. 
 
